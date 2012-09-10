@@ -2,7 +2,7 @@ server {
        client_max_body_size 20M;
         listen 80;
        server_name _;
-       root /var/www/www.bastos.co/web;
+       root /var/www;
         #on server block
         ##necessary if using a multi-site plugin
         server_name_in_redirect off;
